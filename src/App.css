@@ -1,39 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+.icons {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid black;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.iconsFooter {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.subscribe {
+  background-color: #1d1a1a;
+  border: none;
+  color: white;
+  padding: 16px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Montserrat";
+  border-radius: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.navbar {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1d1a1a;
+}
+.navSearch::placeholder {
+  color: #1d1a1a !important;
+  font-weight: 500;
+  opacity: 1;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.logo {
+  font-family: "Quinshy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 70px;
 }
+.slider-box {
+  box-sizing: border-box;
+  font-family: "Montserrat";
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+  position: absolute;
+  width: 480px;
+  height: 326px;
+  left: 0px;
+  top: 0px;
+
+  border: 1px solid #ffffff;
+}
+.category-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+
+  padding: 16px 48px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Montserrat";
+  border-radius: 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.title-text {
+  /* Latest Post */
+
+  font-family: "Vidaloka";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+}
+.random-left {
+  background-color: white;
+  border: 1px solid #838383;
+  width: 55vw;
+  margin-left: 3vw;
+  margin-right: -11.5vw;
+}
+.random-right {
+  background-color: white;
+  border: 1px solid #838383;
+  width: 47vw;
+  margin-left: -155vw;
+  margin-right: -15vw;
+}
+.footerSearch::placeholder {
+  color: #ffffff !important;
+  font-weight: 400;
+  font-size: 16px;
 }
